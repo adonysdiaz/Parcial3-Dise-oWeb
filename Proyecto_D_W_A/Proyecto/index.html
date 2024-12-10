@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Univo - Universidad de Oriente</title>
+  <meta name="title" content="Univo - Tu mejor opcion en el Oriente de El Salvador">
+  <meta name="description" content="Educate con los Mejores">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/images.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/about-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/LOGOTIPO-NAVY-UNIVO.png" width="162" height="50" alt="Univo logo" class="logo-large">
+        <img src="./Logos Univo/Recurso 1.png" width="100" height="30" alt="Univo logo" class="logo-small">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/LOGOTIPO-NAVY-UNIVO.png" width="162" height="50" alt="Univo logo" class="logo-large">
+            <img src="./Logos Univo/Recurso 1.png" width="100" height="30" alt="Univo logo" class="logo-small">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>Nosotros</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>Carreras</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contacto" class="navbar-link" data-nav-link>Contacto</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="search-box" id="search-box" style="display: none;">
+          <input type="text" placeholder="Buscar..." class="search-input">
+          <button class="search-btn" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+ 
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              EDUCATE CON LOS MEJORES <span class="span">Matricula Abierta</span> Ciclo I - 2025!
+            </h1>
+
+            <p class="hero-text">
+              Descubre lo que te apasiona en la Universidad de Oriente UNIVO, tenemos una amplia oferta académica que incluye: Doctorados, Licenciaturas, Ingenierías, Técnicos y Tecnólogos, distribuidos en 6 facultades que cubren todos los campos del saber.
+            </p>
+
+            <a href="https://www.univo.edu.sv/oferta-academica/" class="btn has-before">
+              <span class="span">Oferta Academica</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+
+            <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <div class="img-holder" style="--width: 520; --height: 370;">
+              <img src="./assets/images/UNIVO-si.jpg" width="520" height="370" loading="lazy" alt="about banner"
+                class="img-cover">
+            </div>
+
+            <img src="./Logos Univo/Recurso 1.png" width="160" height="420" loading="lazy" alt=""
+              class="shape about-shape-1">
+
+            <img src="./Logos Univo/Recurso 2.png" width="271" height="420" loading="lazy" alt=""
+              class="shape about-shape-2">
+
+            <img src="./Logos Univo/Recurso 3.png" width="102" height="528" loading="lazy" alt=""
+              class="shape about-shape-3">
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Nosotros</p>
+
+            <h2 class="h2 section-title">
+              43 Años UNIVO <span class="span">Seguimos dejando huella </span> Creemos en tu Talento.
+            </h2>
+
+            <p class="section-text">
+              Hemos entregado más de 15,000 profesionales comprometidos con mejorar el rumbo de la sociedad salvadoreña.
+            </p>
+
+            <p class="section-subtitle">Trayectoria</p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">1981</span>
+                <p class="section-text">
+                  La UNIVO abre sus puertas e inicia sus labores con 554 estudiantes con 4 facultades.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">2010</span>
+
+                <p class="section-text">
+                  La UNIVO recibe la acreditación universitaria por parte del Ministerio de Educación por cumplir con los estándares de calidad, siendo la única universidad acreditada en el oriente del país.
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">2017</span>
+
+                <p class="section-text">
+                  La UNIVO es una de las instituciones con más becados a nivel nacional, teniendo un total de 1,520 becas que son 50% financiadas por instituciones y 50% como aporte de la universidad.
+              </li>
+
+            </ul>
+
+            <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+
+          <p class="section-subtitle">Facultad de Ciencias y Humanidades</p>
+
+          <h2 class="h2 section-title">Carreras</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy"
+                    alt="" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">5 años</span>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3">
+                    <a href="https://www.univo.edu.sv/humanidades/licenciatura-en-psicopedagogia/" class="card-title">Licenciatura en Psicologia</a>
+                  </h3>
+                  <p class="card-text">
+                    La carrera de Licenciatura en Psicopedagogía tiene como propósito fundamental: Formar profesionales 
+                    en psicopedagogía que sean capaces de intervenir de manera eficaz y eficiente en los procesos de enseñanza y 
+                    aprendizaje, promoviendo un entorno educativo inclusivo, equitativo y enriquecedor para todos los estudiantes.
+                  </p>
+                  <div class="wrapper">
+
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy"
+                    alt="" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">5 años</span>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Licenciatura en Telecomunicaciones</a>
+                  </h3>
+
+                  <p class="card-text">
+                    La Comunicación como ciencia tiene en su objeto de estudio y labor un campo muy amplio y complejo, 
+                    el quehacer profesional de un comunicólogo o comunicador, incluye la participación directa en los 
+                    procesos de comunicación humana y particularmente en los de la comunicación colectiva y masiva.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-3.jpg" width="370" height="220" loading="lazy"
+                    alt="" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <span class="span">5 años</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Liceciatura en Educacion Inicial y Parvularia</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Como institución de educación superior, la Universidad de Oriente busca constantemente la actualización de sus procesos 
+                    de formación en pro de la preparación de profesionales competentes a través de programas vigentes que atiendan la demanda 
+                    de profesionales altamente cualificados, que brinden solución a las necesidades de educación y el deporte a nivel nacional e 
+                    internacionales, permitiendo la inserción efectiva de sus futuros Licenciados en Educación Física y Deportes en el mercado laboral.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="https://www.univo.edu.sv/humanidades/" class="btn has-before">
+            <span class="span">Otras Carreras</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Facultad de Ingenieria Y Arquitectura</p>
+
+          <h2 class="h2 section-title">
+            Conoce nuestras <span class="span">Carreras</span> en Facultad de Ingenieria y Arquitectura.
+          </h2>
+
+          <p class="section-text">
+          Construimos un país lleno de oportunidades.
+          Trabajamos de la mano con tecnología, ideas creativas y con alto compromiso social.
+
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Desarrollo.jpg" width="120" height="120" loading="lazy"
+                    alt="Desarrollo de Software" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Ingenieria en Desarrollo de Software</a>
+                </h3>
+
+                <p class="card-text">
+                  Responde a necesidades de modernización y eficiencia de los procesos de las empresas. 
+                </p>
+
+                <span class="card-badge">10 Ciclos</span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/Eficiencia.jpg" width="120" height="120" loading="lazy"
+                    alt="Non-Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.univo.edu.sv/ingenieria/ingenieria-en-energia-y-eficiencia-energetica/" class="card-title">Ingeniería en Energía y Eficiencia Energética</a>
+                </h3>
+
+                <p class="card-text">
+                  La carrera de Ingeniería en Energía y Eficiencia Energética, nace con el propósito de crear profesionales que a través de 
+                  sus conocimientos técnicos y científicos logren aportar desarrollo en el país y especialmente en la zona oriental
+                </p>
+
+                <span class="card-badge">10 Ciclos</span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 229, 75%, 58%">
+
+                <div class="card-icon">
+                  <img src="./assets/images/iNGENIERIA.jpg" width="100" height="100" loading="lazy"
+                    alt="Off-Campus Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.univo.edu.sv/economia-y-negocios/licenciatura-en-administracion-de-empresas-no-presencial/" class="card-title">Ingenieria Industrial</a>
+                </h3>
+
+                <p class="card-text">
+                  La Ingeniería Industrial es una disciplina que se especializa en el entendimiento de los procesos, en desarrollar y aplicar métodos, técnicas y/o modelos que permitan controlar y administrar eficientemente los sistemas de producción de bienes y servicios
+                </p>
+
+                <span class="card-badge">10 Courses</span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 42, 94%, 55%">
+
+                <div class="card-icon">
+                  <img src="./Logos Univo/Logo-FIA2.gif" width="40" height="40" loading="lazy"
+                    alt="Hybrid Distance Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tecnico en Desarrollo de Software</a>
+                </h3>
+
+                <p class="card-text">
+                  Con el auge de las TIC en los últimos años, las IES salvadoreñas han formado profesionales a través de carreras que persiguen una visión generalista del profesional en computación.
+                </p>
+
+                <span class="card-badge">4 Ciclos</span>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+      <section class="video has-bg-image" aria-label="video" style="background-image: url('./assets/images/video-bg.png')">
+        <div class="container">
+          <div class="video-card">
+        <div class="video-banner" style="border-radius: 20px; overflow: hidden; transition: transform 0.3s ease;">
+          <video controls preload="auto" style="border-radius: 20px; width: 100%; height: auto;">
+            <source src="./assets/videos/Modelo-Educativo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog has-bg-image" id="blog" aria-label="blog"
+        style="background-image: url('./assets/images/blog-bg.svg')">
+        <div class="container">
+
+          <p class="section-subtitle">Univo News</p>
+
+          <h2 class="h2 section-title">Informacion a tu Alcance</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/Facultad-de-Ingenieria-y-Arquitectura-de-la-UNIVO-realiza-Feria-de-Logros-780x470.jpeg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="https://univonews.com/facultad-de-ingenieria-y-arquitectura-de-la-univo-realiza-feria-de-logros/" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://univonews.com/facultad-de-ingenieria-y-arquitectura-de-la-univo-realiza-feria-de-logros/" class="card-subtitle"></a>
+                  <script>
+                    
+                  </script>
+
+                  <h3 class="h3">
+                    <a href="https://univonews.com/facultad-de-ingenieria-y-arquitectura-de-la-univo-realiza-feria-de-logros/" class="card-title">Facultad de Ingenieria y Arquitectura de la UNIVO realiza Feria de Logros</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Nov 09, 2024</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Ciclo 2/2024</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    La actividad se ha consolidado como una plataforma para mostrar la creatividad, la innovación y el dominio de los futuros profesionales en el campo de la ingeniería y la arquitectura
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/Filipinas-en-alerta-por-volcan-Kanlaon.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="https://univonews.com/filipinas-evacua-a-miles-de-personas-tras-erupcion-del-volcan-kanlaon/" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://univonews.com/filipinas-evacua-a-miles-de-personas-tras-erupcion-del-volcan-kanlaon/" class="card-subtitle"></a>
+
+                  <h3 class="h3">
+                    <a href="https://univonews.com/filipinas-evacua-a-miles-de-personas-tras-erupcion-del-volcan-kanlaon/" class="card-title">Filipinas evacúa a miles de personas tras erupción del volcán Kanlaon</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Nov 09, 2024</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Erupción</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    La actividad eruptiva del volcán Kanlaon, en la isla de Negros, ha generado una alerta nacional que obliga a evacuar a decenas de miles de personas en la zona central del país asiático..
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/1000469130-780x470.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="https://univonews.com/joven-universitaria-impulsa-su-emprendimiento-de-maquillaje-mientras-cursa-sus-estudios/" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://univonews.com/joven-universitaria-impulsa-su-emprendimiento-de-maquillaje-mientras-cursa-sus-estudios/" class="card-subtitle"></a>
+
+                  <h3 class="h3">
+                    <a href="https://univonews.com/joven-universitaria-impulsa-su-emprendimiento-de-maquillaje-mientras-cursa-sus-estudios/" class="card-title">Joven universitaria impulsa su emprendimiento de maquillaje mientras cursa sus estudios</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Nov 09, 2024</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Karla Galeas</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Karla Galeas, estudiante de Licenciatura en Comunicaciones en la Universidad de Oriente (UNIVO), ha emprendido su propio negocio de maquillaje y accesorios a través de la página
+                     de Instagram Glamorous Cosmetics. Con este proyecto, busca ofrecer productos en tendencia y asesorar a sus clientas, mientras avanza en su formación académica.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+            class="shape blog-shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/ISOLOGO-UNIVO-300x300.png" width="162" height="50" alt="Univo logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Calidad y Experiencia en Educación
+            Con más de 40 años de experiencia, en UNIVO te brindamos acceso a convenios estratégicos, laboratorios de vanguardia y una oferta académica diseñada para impulsar tu desarrollo profesional.   
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Direccion:</span>
+
+            <address class="address">4ta. Calle Poniente 705 San Miguel, El Salvador</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Llamanos:</span>
+
+            <a href="tel+503 2668-3700" class="footer-link">+503 2668-3700</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="admisiones@univo.edu.sv" class="footer-link">Univo</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">UNIVO</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/univo-maestrias-y-doctorados/" class="footer-link">Escuela de Posgrado</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/beneficios-univo/" class="footer-link">Beneficios UNIVO</a>
+          </li>
+
+          <li>
+            <a href="https://univonews.com/" class="footer-link">Univo News</a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/COCUNIVO/" class="footer-link">COC</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/vinculacion-social/" class="footer-link">Vinculacion Social</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+        
+          <li>
+            <a href="https://www.univo.edu.sv/direccion-de-investigacion/" class="footer-link">Direccion de Investigacion</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/direccion-de-formacion-continua/" class="footer-link">Formacion Continua</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/calendario-academico/" class="footer-link">Calendario de Actividades</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/requisitos-de-ingreso/" class="footer-link">Requisitos de Admision</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/horarios-ciclo-02-2024/" class="footer-link">Horarios</a>
+          </li>
+
+          <li>
+            <a href="https://www.univo.edu.sv/rectoria/" class="footer-link">Rectoria</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+          <section class="section Contacto" id="Contacto" aria-label="Contacto">
+            <p class="footer-list-title">Contacto</p>
+
+            <p class="footer-list-text">
+            Ingresa tu Email para recibir noticias y actualizaciones.
+            </p>
+          </section>
+           
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/UNIVOSM/?locale=es_LA" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://sv.linkedin.com/school/universidad-de-oriente-sv-/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/univosm/?hl=es" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://x.com/univosm" class="social-link">
+                <ion-icon name="logo-x" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://www.youtube.com/@UNIVOSM" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Edwin Del Cid and Adonys Diaz</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
